@@ -1,0 +1,76 @@
+body {
+    background-color: #24353F;
+}
+a {
+ text-decoration: none;
+}
+#signUpDiv,#signInDiv h2 {
+    color: #17A2B8;
+}
+input {
+    width: 80% !important;
+    height: 40px;
+    margin: auto;
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: 600;
+    transition: 0.5s;
+    outline: none;
+    color: white;
+}
+input:focus {
+    border: 1px solid #80BDFF;
+}
+button {
+    width: 80% !important;
+    margin: auto;
+    background-color: transparent;
+    border: 1px solid #17A2B8;
+    color: #17A2B8;
+    transition: 0.5s;
+    a {
+        color: #17A2B8;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+
+}
+button:hover {
+    background-color: #17A2B8;
+    color: white;
+    a {
+        color: white;
+    }
+}
+a {
+    position: relative;
+}
+p a::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 1px;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+p a:hover::after {
+    display: block;
+}
+
+.logout {
+width: 80px !important;
+text-align: end;
+border: 1px solid gold;
+color: gray;
+transition: 0.5s;
+}
+.logout:hover {
+    color: white;
+    background-color: gold;
+}
+
+.content h2,h1 {
+    color: #17A2B8;
+}
